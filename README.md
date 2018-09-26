@@ -24,11 +24,11 @@ If you use this software for academic research, please cite the paper in questio
 
 - Download the pickled files for English and Portuguese word embeddings from [Polyglot](https://sites.google.com/site/rmyeid/projects/polyglot)
 
-- Preprocess the data in order to obtain the following tabular format (divider between quotes):
+- Preprocess the data in order to obtain the following tabular format (distances are between each token and the two event mentions):
 
-| left sentence | right sentence | left verb | right verb | left arguments | right arguments | left distances | right distances | numerical label |
+| left sentence | right sentence | left event | right event | left arguments | right arguments | left distances | right distances | numerical label |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-*they sow a row of male-fertile plants nearby then* | *which pollinate the male-sterile plants* | sow | pollinate | they row | which plants | 1-10 0-9 1-8 2-7 3-6 4-5 5-4 6-3 7-2 | 8-1 9-0 10-1 11-2 12-3	| 0
+*they sow a row of male-fertile plants nearby then* | *which pollinate the male-sterile plants* | sow | pollinate | they row | which plants | 1-10\|0-9\|1-8\|2-7\|3-6\|4-5\|5-4\|6-3\|7-2 | 8-1\|9-0\|10-1\|11-2\|12-3	| 0
 
 ## Execution
 
